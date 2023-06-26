@@ -15,7 +15,7 @@ class ProfilePage extends StatelessWidget {
           decoration: const BoxDecoration(
             image: DecorationImage(
                 image: AssetImage(
-                  'assets/background.png',
+                  'assets/freefireBGIF.GIF',
                 ),
                 fit: BoxFit.cover),
           ),
@@ -26,16 +26,16 @@ class ProfilePage extends StatelessWidget {
             children: [
               const CircleAvatar(
                 radius: 55,
-                backgroundImage: AssetImage('assets/lens.jpeg'),
+                backgroundImage: AssetImage('assets/freefire.jpeg'),
               ),
               const SizedBox(
                 height: 5,
               ),
               Text(
-                'Lens',
+                'ツツmathツツ',
                 style: titleTextStyle.copyWith(
                     letterSpacing: 2,
-                    color: Colors.deepPurple,
+                    color: Color.fromARGB(255, 255, 0, 0),
                     fontSize: 20,
                     fontWeight: FontWeight.w800),
               ),
@@ -43,14 +43,14 @@ class ProfilePage extends StatelessWidget {
                 height: 10,
               ),
               Text(
-                'Senior Flutter Developer',
+                'radiant 1 amurang barat😎😎☝️',
                 style: titleTextStyle.copyWith(
-                    color: Colors.black, fontWeight: FontWeight.bold),
+                    color: Color.fromARGB(255, 0, 255, 64), fontWeight: FontWeight.bold),
               ),
               const SizedBox(
                 height: 5,
               ),
-              const Text('nyenyenyenyenye sipaling flutter')
+              const Text('KAK MONA PE ADE MENTOR')
             ],
           ),
         )
